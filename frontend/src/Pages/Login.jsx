@@ -103,7 +103,7 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      const url = `http://localhost:5500/api/auth/register`;
+      const url = `https://newsakib.onrender.com/api/auth/register`;
       const headers = {
         "Content-Type": "application/json",
         Accept: "application/json",
