@@ -7,11 +7,7 @@ import logo from "../images/gnet-logo.jpg";
 import robot from "../images/robot-icon.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import {
-  FaGoogle,
-  FaEye,
-  FaEyeSlash,
-} from "react-icons/fa";
+import { FaGoogle, FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -53,7 +49,7 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      const url = `https://lastchat-o1as.onrender.com/api/auth/login`;
+      const url = `https://newsakib.onrender.com/api/auth/login`;
       const headers = {
         "Content-Type": "application/json",
         Accept: "application/json",
